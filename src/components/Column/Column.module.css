@@ -1,0 +1,32 @@
+.column {
+  background-color: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  width: 100%;
+  color: var(--COLOR-LIGHT);
+}
+
+.tasks {
+  padding: 1rem;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  background-color: var(--COLOR-MUTED_BLUE);
+}
+
+.status > h2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.status > small {
+  display: block;
+  font-size: medium;
+}
+
+.done {
+  background-color: red;
+}

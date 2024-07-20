@@ -1,0 +1,28 @@
+.appContainer {
+  padding: 2rem;
+  background: var(--COLOR-GRAY);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  color: var(--COLOR-WHITE);
+}
+
+.header > button {
+  background-color: var(--COLOR-TEAL-LIGHT);
+  width: 150px;
+}

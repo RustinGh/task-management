@@ -1,0 +1,38 @@
+:root {
+  --COLOR-GRAY: #35374b;
+  --COLOR-MUTED_BLUE: #222831;
+  --COLOR-GRAY-DARK: #31363f;
+  --COLOR-LIGHT: #eeeeee;
+  --COLOR-TEAL-LIGHT: #76abae;
+  --COLOR-BLACK: #000000;
+  --COLOR-WHITE: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: var(--COLOR-LIGHT);
+  border-radius: 0.25rem;
+  border: none;
+  min-height: 2.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  min-width: 250px;
+  min-height: 2.5rem;
+}
+
+input + small {
+  display: block;
+  color: red;
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+}
